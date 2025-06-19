@@ -45,6 +45,11 @@ body {
   padding-right: 40px;
 }
 
+.navbar a:hover {
+  color: #f0f8ff;
+}
+
+
 html {
   scroll-behavior: smooth;
 }
