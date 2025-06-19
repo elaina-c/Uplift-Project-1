@@ -1,0 +1,120 @@
+.About-Me-container {
+  background: linear-gradient(135deg, #ffffff, #d8b4f8, #a855f7, #6b21a8, #2e003e);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.personal-info,
+.short-intro {
+  height: auto;
+  width: 600px;
+  max-width: 90%;
+  border-bottom: 3px solid #4c678b;
+  border-right: 3px solid #4c678b;
+  padding: 20px;
+  background: linear-gradient(135deg, #a39dfc, #c0dbff, #e3c0ff);
+  font-size: 20px;
+  text-indent: 50px;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px #0000004d;
+  border-radius: 15px;
+  flex: 1 1 300px;
+  margin: 30px auto;
+}
+
+.personal-info h3 {
+  margin-top: 0;
+  color: #fcfcff;
+}
+
+.short-intro h3 {
+  color: #fcfcff;
+}
+
+.personal-info p {
+  margin: 10px 0 0 0;
+  text-indent: 0;
+}
+
+.profile-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.profile1 {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.profile2 {
+  flex: 1 1 300px;
+  max-width: 400px;
+  height: auto;
+  padding: 20px;
+  margin: 10px auto;
+  box-sizing: border-box;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.profile2 h1 {
+  color: #fcfcff;
+}
+
+.my_picture {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid #4a3168;
+  margin: 40px auto;
+  box-shadow: 4px 4px 10px #0000004d;
+  display: block;
+}
+
+.About-Me-container a {
+  text-decoration: none;
+  color: #f0f8ff;
+  border: 2px solid #4c678b;
+  padding: 5px;
+  background-color: #6b85a8;
+}
+
+.personal-info {
+  position: relative;
+  padding-top: 60px;
+}
+
+.logo-box {
+  position: absolute;
+  top: 5%;
+  left: 98%;
+  transform: translate(-50%, -50%);
+}
+
+.about-logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px #0000004d;
+}
