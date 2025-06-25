@@ -191,7 +191,7 @@
   }
 
   .footer h5 {
-    font-size: 5px;
+    font-size: 13px;
   }
 
   .main-container
@@ -208,5 +208,9 @@
     height: auto;
     width: 100%;
     max-width: 100%;
+  }
+
+  .box-description p {
+  font-size: 13px;
   }
 }
